@@ -1,4 +1,5 @@
 import discord
+import os
 
 client = discord.Client()
 
@@ -30,4 +31,5 @@ async def on_message(message):
         await message.channel.send("경고야 한 번더 하면 닌 나랑 현피떠 ^^")
 
 
-client.run("NzIxMjMxNzI5MDkxODA1MjY0.XuW-GQ.ep7Nq_GyJuyB7K3yvk8qYRRwBlA")
+access_token - os.environ["BOT_TOKEN"]       
+client.run(access_token)
