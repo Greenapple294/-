@@ -30,5 +30,6 @@ async def on_message(message):
         await message.channel.send("경고야 한 번더 하면 닌 나랑 현피떠 ^^")
 
 
-client.run("NzIxMjMxNzI5MDkxODA1MjY0.Xu1sTg.LoB8a6jDC14MEb0E1vDQmtPjA8g")
+access_token - os.environ["BOT_TOKEN"]       
+client.run(access_token)
 
